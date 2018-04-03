@@ -91,7 +91,7 @@ while True:
     if(len(cars)>3):
         if((cars[0][0])<((cars[2][0])-200) or (cars[0][0])<=(cars[1][0]-156)):
             ab=ab+1
-            if(ab>2 and ab<4):
+            if(ab>3 and ab<5):
                 print('accident')
                 sms()
     # Display frames in a window
